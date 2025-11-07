@@ -40,7 +40,7 @@ Copy code
 ## 🧩 Code Overview
 
 ### `views.py`
-🖤 python
+```python
 from django.shortcuts import render
 from django.http import HttpResponse
 
