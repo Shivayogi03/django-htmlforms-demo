@@ -40,7 +40,7 @@ Copy code
 ## 🧩 Code Overview
 
 ### `views.py`
-```python
+🖤 python
 from django.shortcuts import render
 from django.http import HttpResponse
 
@@ -50,7 +50,9 @@ def htmlforms(request):
         pw = request.POST['pwa']
         return HttpResponse(f"Username is {un} & your password is confidential!")
     return render(request, 'htmlforms.html')
-htmlforms.html
+
+
+🥇htmlforms.html
 html
 Copy code
 <!DOCTYPE html>
@@ -85,7 +87,9 @@ Copy code
     </center>
 </body>
 </html>
-urls.py
+
+
+🥈urls.py
 python
 Copy code
 from django.contrib import admin
@@ -96,6 +100,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('htmlforms/', htmlforms, name='htmlforms'),
 ]
+
+
 ⚙️ How to Run the Project
 Clone the repository
 
